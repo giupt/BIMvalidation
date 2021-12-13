@@ -29,8 +29,6 @@ contract BIMvalidation is Ownable {
     address internal BIMOracleAddr = 0;
     OracleInterface internal BIMOracle = OracleInterface(BIMOracleAddr); 
 
-    //constants
-    uint internal minimumValidation = 1000000000000;
 
     struct Validation {
         bytes32 matchId;
