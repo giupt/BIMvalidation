@@ -1,7 +1,6 @@
 pragma solidity ^0.4.26;
 
-import "https://github.com/jrkosinski/oracle-example/blob/part1-step2/oracle/contracts/Ownable.sol";
-import "https://github.com/jrkosinski/oracle-example/blob/part1-step2/oracle/contracts/DateLib.sol";
+import "https://github.com/giupt/BIMvalidation/blob/main/Ownable.sol";
 
 
 /// @title BIMOracle
@@ -9,8 +8,6 @@ import "https://github.com/jrkosinski/oracle-example/blob/part1-step2/oracle/con
 contract BIMOracle is Ownable {
     Verification[] verifications; 
     mapping(bytes32 => uint) verificationIdToIndex; 
-
-    using DateLib for DateLib.DateTime;
 
 
     //defines a verification along with its result
