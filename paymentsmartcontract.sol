@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.8.2;
 
 import "https://github.com/giupt/BIMvalidation/blob/main/OracleInterface.sol";
 import "https://github.com/giupt/BIMvalidation/blob/main/Ownable.sol";
