@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-import "https://github.com/giupt/deBIM/blob/main/OracleInterface4.sol";
+import "https://github.com/giupt/BIMvalidation/blob/main/OracleInterface.sol";
 import "https://github.com/jrkosinski/oracle-example/blob/part1-step2/oracle/contracts/Ownable.sol";
 
 
