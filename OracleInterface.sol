@@ -1,6 +1,6 @@
 
 //SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.4.17;
+pragma solidity 0.4.17;
 
 contract OracleInterface {
 
