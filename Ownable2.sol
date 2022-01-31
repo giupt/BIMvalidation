@@ -1,4 +1,4 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.6.0;
 
 //@title Ownable
 //@dev The Ownable contract has an owner address, and provides basic authorization control
@@ -9,9 +9,7 @@ contract Ownable {
 
     event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);
 
-//@dev The Ownable constructor sets the original `owner` of the contract to the sender
-
-    constructor() {
+    constructor() public {
         owner = msg.sender;
     }
 
