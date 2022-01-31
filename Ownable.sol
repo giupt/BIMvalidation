@@ -1,6 +1,6 @@
 
 //SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.4.17;
+pragma solidity 0.4.17;
 
 //@title Ownable
 //@dev The Ownable contract has an owner address, and provides basic authorization control
