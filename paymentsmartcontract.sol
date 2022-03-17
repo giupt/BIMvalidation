@@ -72,7 +72,7 @@ contract BIMvalidation is Ownable {
 
     ///a specific account can withdraw the money if the result is approved this withdraws all the money that an account has send to the contract
     /// @param _amount is the amount of money to be sent to the design team 
-    function transfer(address _receiver, uint _amount, uint _obtainedPercentage, uint8 _chosenResult) onlyOwner public payable {
+    function withdraw(address _receiver, uint _amount, uint _obtainedPercentage, uint8 _chosenResult) onlyOwner public payable {
         require(balances[msg.sender] >= _amount, "Insufficient funds");
         require(_obtainedPercentage >=90, "Insufficient percentage");
         require(_chosenResult == 1, "Design not validated");
