@@ -17,5 +17,4 @@ contract IPFSupload is Ownable {
     function setIPFShash(string memory _file) public{
     file = _file;
     }
-    
 }
