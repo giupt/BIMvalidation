@@ -31,7 +31,7 @@ contract BIMvalidation is Ownable {
 
 
     struct Validation {
-        bytes32 matchId;
+        bytes32 verificationId;
         uint amount;
         uint obtainedPercentage;
         uint8 chosenResult;
